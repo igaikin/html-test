@@ -1,37 +1,154 @@
-h1 {
-    color: red;
+body {
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
 }
 
-h2 {
-    background-color: green;
-    color: white;
-    border: 5px solid green;
+div, p, input, button, form, a, ul, li {
+    box-sizing: border-box;
 }
 
-h2.big_border {
-    border: 40px solid green;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu Bold', sans-serif;
+    font-weight: bold;
 }
 
-.block {
-    height: 200px;
-    width: 200px;
+p {
+    line-height: 1.6em;
 }
 
-.first {
-    color: white;
-    background-color: blue;
-    width: 100px;
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }
 
-.second span {
-    color: red;
+.header {
+    background: rgba(77, 189, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77, 189, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1);
+    padding-top: 66px;
+    color: #fff;
+    padding-bottom: 72px;
 }
 
-.center {
-    margin-left: 80px;
+.wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
-.list li {
-    border: 2px solid black;
-    font-size: 25px;
+.dream {
+    margin-top: 147px;
+    width: 575px;
+}
+
+.title {
+    font-family: 'Ubuntu Bold', sans-serif;
+    font-size: 36px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    width: 410px;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.button {
+    background: #ffd429;
+    font-family: 'Montserrat Black', sans-serif;
+    color: #2e2a1b;
+    display: block;
+    width: 221px;
+    padding: 10px 0 10px;
+    text-align: center;;
+    text-decoration: none;
+    margin-bottom: 57px;
+}
+
+.section_title {
+    font-size: 30px;
+    padding-top: 104px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    text-align: center;
+
+}
+
+.skill_title {
+    margin-top: 90px;
+    font-size: 19px;
+
+}
+
+.skill {
+    background: url("../img/icontime.png") no-repeat top center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 284px;
+    padding-top: 15px;
+
+}
+
+.skill-travel {
+    background: url("../img/iconsbeach.png") no-repeat top center;
+}
+
+.skill-val {
+    background: url("../img/iconslaunch.png") no-repeat top center;
+}
+
+.learn {
+    padding-bottom: 82px;
+    align-items: center;
+}
+
+.order_ticket {
+    background: #ecf3f8;
+    padding-bottom: 30px;
+}
+
+.form {
+    margin-top: 57px;
+}
+
+input {
+    width: 345px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    display: block;
+    border: 1px solid #bbbbbb;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px 5px;
+}
+
+.button-form {
+    width: 345px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.footer {
+    background: #164d7a;
+    padding: 60px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans Regular', sans-serif;
 }

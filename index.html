@@ -1,74 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <!--    <meta name="viewport"-->
+    <!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    <!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
     <title>Untitled</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-
 <body>
-    <header>
-        <img src="img/1650998594_wpdmn_logo.jpeg" alt="WayUp" width="101" height="33">
-        <h1>
-            Вступление
-        </h1>
-        <div class="block">
-            <p class="first">
-                Это текст моего второго домашнего задания.
-            </p>
+<header id="header" class="header">
+    <div class="container">
+        <img class="logo" src="img/logo.png" alt="WayUp">
+        <div class="wrapper">
+            <div class="dream">
+                <h1 class="title">
+                    С помощью верстки </br>я создам ту жизнь, о которой <span>мечтаю!</span>
+                </h1>
+                <p class="intro">
+                    Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это </br>на
+                    100%. Меня не остановить!
+                </p>
+                <a href="#" class="button">
+                    Двигаться к мечте!
+                </a>
+            </div>
+            <img src="img/luggage.png" class="luggage" alt="Открывай мир">
         </div>
-        <p class="second">
-            Не верится, но мне уже удаётся писать свой <span> первый код на HTML.</span>
-        </p>
-    </header>
+    </div>
+</header>
 
-    <section>
-        <h2>
-            Что дальше?
-        </h2>
-        <p>
-            Дальше, я буду получать всё больше и больше опыта в разработке сайтов, чтобы достичь новых вершин!
-            <a href="https://www.google.com">Прочитать больше в Google</a>
-        </p>
-    </section>
+<section id="learn" class="learn">
+    <div class="container">
+        <h2 class="section_title">Что меня ждёт впереди</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3 class="skill_title">Свободное время</h3>
+                <p class="skill_text">Мне нужно свободное время на семью и самое настоящее</p>
+            </div>
+            <div class="skill skill-travel">
+                <h3 class="skill_title">Яркие путешествия</h3>
+                <p class="skill_text">Работать откуда угодно - что может быть лучше?</p>
+            </div>
+            <div class="skill skill-val">
+                <h3 class="skill_title">Создание ценностей</h3>
+                <p class="skill_text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <section>
-        <h2 class="big_border">
-            Что я буду уметь?
-        </h2>
-        <p class="center">
-            Я могу создавать вот такие замечательные формы:
-        </p>
-        <form>
-            <input type="text" name="name" placeholder="Имя" required>
-            <input type="email" name="email" placeholder="E-mail">
-            <input type="tel" name="phone" placeholder="Телефон">
-            <button type="submit">Отправить форму</button>
-        </form>
-        <p>А также, я научусь создавать списки:</p>
-        <ul class="list">
-            <li>
-                С одним пунктом
-            </li>
-            <li>
-                С несколькими пунктами
-            </li>
-            <li>
-                И даже с тремя отдельными
-            </li>
-        </ul>
-    </section>
+<section id="order_ticket" class="order_ticket">
+    <div class="container">
+        <div class="order_form">
+            <h2 class="section_title">Форма заказа билета в будущее</h2>
+            <form action="#" class="form">
+                <input type="text" name="name" placeholder="Имя">
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="tel" name="phone" placeholder="Телефон">
+                <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?">
+                <a href="#" class="button button-form">
+                    Двигаться к мечте!
+                </a>
+            </form>
+        </div>
+    </div>
+</section>
 
-    <section>
-        <h2>Отличное начало!</h2>
-    </section>
-
-    <footer>
-        <a href="https://my.wayup.in/lesson/1801#lesson">Перейти на страницу первого занятия</a>
-    </footer>
+<footer id="footer" class="footer">
+    <div class="container">
+        <p class>&copy; Все мои мечты защищены моим трудолюбием</p>
+    </div>
+</footer>
 </body>
-
 </html>
