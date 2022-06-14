@@ -151,4 +151,78 @@ input {
     color: #ffffff;
     font-size: 14px;
     font-family: 'Open Sans Regular', sans-serif;
+    margin-right: 0;
+}
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .wrapper {
+
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .dream {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .luggage {
+        display: block;
+    }
+
+    .button {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*576px - 768px*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skill {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*0 - 576px*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .button-form {
+        width: 100%;
+    }
 }
