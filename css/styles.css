@@ -74,6 +74,7 @@ p {
     text-align: center;;
     text-decoration: none;
     margin-bottom: 57px;
+    border: none;
 }
 
 .learn {
@@ -161,11 +162,11 @@ input {
 
     .container {
         width: 960px;
+        align-items: center;
     }
 
-    .wrapper {
-        max-width: 100%;
-        height: auto;
+    .luggage {
+        width: 50%;
     }
 }
 
@@ -186,6 +187,7 @@ input {
 
     .intro {
         width: 100%;
+        height: auto;
     }
 
     .luggage {
